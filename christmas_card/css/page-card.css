@@ -1,0 +1,40 @@
+.container {
+  max-width: 90%;
+  margin: 4rem auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+section {
+  width: 60%;
+}
+
+.title {
+  width: 100%;
+  animation-delay: 200ms;
+}
+
+.cards {
+  width: 100%;
+  margin-top: 72px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.quadrados {
+  width: 342.18px;
+  height: 289px;
+
+  margin-bottom: 50px;
+  margin-right: 50px;
+
+  background: #d6d6d6;
+  border-radius: 13.9952px;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+}
